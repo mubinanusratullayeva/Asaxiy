@@ -1,0 +1,146 @@
+.container{
+    max-width: 1392px;
+}
+
+.header{
+    box-shadow: 0px 10px 30px rgba(209,213,223,.5);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.subcategories{
+    padding-top: 190px;
+}
+
+.ushoq-birinchi{
+    color: gray !important;
+    text-decoration: none !important;
+}
+
+.a__aside{
+    background-color: #fff;
+    border-radius: 20px;
+    padding-top: 20px;
+    -webkit-box-shadow: 0 10px 30px rgba(209,213,223,.5);
+    box-shadow: 0 10px 30px rgba(209,213,223,.5);
+}
+
+.a__aside-header-title{
+    text-decoration: none;
+    color: gray;
+}
+
+.a__aside-header-item{
+    min-width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeff3;
+}
+
+.btn-collapse{
+    min-width: 100%;
+    background-color: rgba(119, 165, 251, 0.452);
+}
+
+.btn-drop-bo{
+    border: 3px solid dodgerblue;
+    padding: 2px 0;
+    min-height: 20px;
+    min-width: 100px;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(110, 157, 245, 0.904);
+    color: #fff;
+}
+
+.card-img-top{
+    background-image: url(../img/card-1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: top;
+    background-position-x: center;
+    height: 160px;
+}
+
+.product__item{
+    position: relative;
+    padding: 10px 1px;
+    background-color: #fff;
+    outline: 0;
+    border-radius: 20px;
+    height: 100%;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.card-body .card-link:nth-child(1){
+    background-color: rgb(76, 214, 161);
+}
+.card-body .card-link:nth-child(2){
+    background-color:dodgerblue;
+}
+
+.list-group-item{
+    border: none;
+}
+
+.list-group-flush{
+    font-size: small;
+}
+
+.card-title{
+    font-size: 14px;
+}
+
+h1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.texts h4, h2{
+    font-weight: bolder;
+}
+
+.texts h2{
+    font-size: 32px;
+}
+
+.texts li:nth-child(3){
+    list-style: none;
+}
+
+.bg-img{
+    background-image: url(../img/asaxiy-apps.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: contain;
+    height: 290px;
+    padding: 0 100px;
+}
+
+footer{
+    padding: 40px 40px 0 40px;
+}
+
+.foote{
+    border-top: 1px solid rgba(128, 128, 128, 0.448);
+}
+
+.footer__link:hover{
+    color: dodgerblue !important;
+    cursor: pointer;
+}
+
+.uzum{
+    row-gap: 9px;
+}

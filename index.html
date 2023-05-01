@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+<body class="bg-primary bg-opacity-10">
+    <header class="header py-2">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img src="./img/asaxiy-logo.svg" alt="asaxiy"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse ms-2" id="navbarSupportedContent">
+                    <form class="d-flex bg-primary rounded-3" role="search">
+                      <input style="width: 540px;" class="form-control border-primary border-2" type="search" placeholder="Search..." aria-label="Search">
+                      <button style="width: 99px;" class="btn btn-outline-primary text-white" type="submit">Search</button>
+                    </form>
+                  </div>
+                  <ul style="min-width: 451px;" class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center justify-content-between ms-4">
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex flex-column align-items-center" aria-current="page" href="#">
+                            <img style="width: 31px; height: 30px;" src="./img/payment.svg" alt="payment">
+                            <span>Pay</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active d-flex flex-column align-items-center" aria-current="page" href="#">
+                            <img style="width: 31px; height: 30px;" src="./img/tracker.svg" alt="tracker">
+                            <span>Track</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active d-flex flex-column align-items-center" aria-current="page" href="#">
+                            <img style="width: 20px; height: 20px;" src="./img/language.svg" alt="language">
+                            <span>Language</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active d-flex flex-column align-items-center" aria-current="page" href="#">
+                            <img style="width: 31px; height: 30px;" src="./img/cart.svg" alt="basket">
+                            <span>Basket</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active d-flex flex-column align-items-center" aria-current="page" href="#">
+                            <img style="width: 31px; height: 30px;" src="./img/heart.svg" alt="heart">
+                            <span>Favorite</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active d-flex flex-column align-items-center" aria-current="page" href="#">
+                            <img style="width: 31px; height: 30px;" src="./img/avatar.svg" alt="cabinet">
+                            <span>Cabinet</span>
+                        </a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+              <nav class="navbar">
+                <div class="btn-group">
+                    <img class="mt-2" style="width: 20px; height: 20px;" src="./img/hamburger.png" alt="hamburger">
+                    <button type="button" class="btn bg-body dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                      All categories
+                    </button>
+                    <ul style="width: 110vh; height: 80vh;" class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                      <li><button class="dropdown-item" type="button">Action</button></li>
+                      <li><button class="dropdown-item" type="button">Another action</button></li>
+                      <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                  </div>
+                <button class="btn btn-danger">
+                    Discounts
+                    <img style="width: 20px;" src="./img/referendum-last.png" alt="discounts">
+                </button>
+                <a class="link-dark text-decoration-none" href="#">News</a>
+                <a class="link-dark text-decoration-none" href="#">New</a>
+                <a class="link-dark text-decoration-none" href="#">Books</a>
+                <a class="link-dark text-decoration-none" href="#">Phone and gadgets</a>
+                <a class="link-dark text-decoration-none" href="#">Television</a>
+              </nav>
+        </div>
+    </header>
+    <main>
+        <section class="subcategories mb-40">
+            <div class="container">
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item ushoq-birinchi"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item text-dark active" aria-current="page">Library</li>
+                      <li class="breadcrumb-item text-dark active" aria-current="page">Library</li>
+                    </ol>
+                  </nav>
+                  <div class="row">
+                    <div class="col-lg-3 d-lg-block d-none">
+                        <div class="subcategories__aside-wrapper">
+                            <div class="a__aside mb-40">
+                                <div class="a__aside-header d-flex flex-column align-items-baseline p-4">
+                                    <a href="#" class="a__aside-header-title">Subcategories</a>
+                                    <a href="#" class="a__aside-header-item">Phones</a>
+                                    <a href="#" class="a__aside-header-item">Tablets</a>
+                                    <a href="#" class="a__aside-header-item">Smart watch and bracelets</a>
+                                    <a href="#" class="a__aside-header-item">Faxes</a>
+                                    <a href="#" class="a__aside-header-item">Accessories for smartphones and tablets</a>
+                                    <a href="#" class="a__aside-header-item">Headphones and audio euipments</a>
+                                    <a href="#" class="a__aside-header-item">E-books</a>
+                                    <a href="#" class="a__aside-header-item">Ratio station</a>
+                                    <a href="#" class="a__aside-header-item">Virtual reality glasses</a>
+                                </div>
+                              </div>    
+                        </div>
+                        <div class="subcategories__aside-wrapper mt-5">
+                            <div class="a__aside mb-40">
+                                <div class="a__aside-header d-flex flex-column align-items-baseline p-4">
+                                    <a href="#" class="a__aside-header-title">Produser</a>
+                                    <label class="a__aside-header-item text-secondary">
+                                        <input type="checkbox">
+                                        2E Gaming
+                                    </label>
+                                    <label class="a__aside-header-item text-secondary">
+                                        <input type="checkbox">
+                                        A4Tech
+                                    </label>
+                                    <label class="a__aside-header-item text-secondary">
+                                        <input type="checkbox">
+                                        AWEI
+                                    </label>
+                                    <label class="a__aside-header-item text-secondary">
+                                        <input type="checkbox">
+                                        Acer
+                                    </label>
+                                    <label class="a__aside-header-item text-secondary">
+                                        <input type="checkbox">
+                                        Al-Harameen
+                                    </label>
+                                    <label class="a__aside-header-item text-secondary">
+                                        <input type="checkbox">
+                                        Amazon
+                                    </label>
+                                    <label class="a__aside-header-item text-secondary">
+                                        <input type="checkbox">
+                                        Anker
+                                    </label>
+                                    <div class="collapse" id="collapseExample">
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label><label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            2E Gaming
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            A4Tech
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            AWEI
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Acer
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Al-Harameen
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Amazon
+                                        </label>
+                                        <label class="a__aside-header-item text-secondary">
+                                            <input type="checkbox">
+                                            Anker
+                                        </label>
+                                    </div>
+                                      </div>
+                                    <button class="btn btn-collapse text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                              >
+                                    </button>
+                                </div>
+                              </div>    
+                        </div>
+                        <div class="col-lg-9 col-md-12" style="width: 1044px;">
+                            <div class="d-flex justify-content-between">
+                                <h1>Phones and gadgets</h1>
+                                <div class="d-flex justify-content-between">
+                                    <div class="dropdown">
+                                        <button class="btn dropdown-toggle btn-drop-bo" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          24
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">72</a></li>
+                                            <li><a class="dropdown-item" href="#">45</a></li>
+                                            <li><a class="dropdown-item" href="#">93</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="ms-2 dropdown">
+                                        <button class="btn dropdown-toggle btn-drop-bo" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          sorting
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Sorting</a></li>
+                                          <li><a class="dropdown-item" href="#">New</a></li>
+                                          <li><a class="dropdown-item" href="#">Cheaper at first</a></li>
+                                          <li><a class="dropdown-item" href="#">More expensive at first</a></li>
+                                          <li><a class="dropdown-item" href="#">Rating (starting low)</a></li>
+                                          <li><a class="dropdown-item" href="#">Rating (starting from high)</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 offset-lg-0 d-flex flex-wrap align-items-center">
+                                <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>   <div class="card border-1 product__item d-flex flex-column justify-content-between " style="max-width: 242px;">
+                                    <div class="card-img-top"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Smart bracelet HUAWEI Band 7 (Graphite Black)</h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item text-secondary">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 15px;" src="./img/simple-star-blue.png" alt="blue-stars">
+                                        <img style="width: 12px;" class="ms-2" src="./img/speech-balloon.png" alt="message">
+                                        9 reviews
+                                      </li>
+                                      <li class="list-group-item">599 000 sum</li>
+                                      <li class="list-group-item">72 400 sum / 12 months</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Installment</a>
+                                      <a href="#" class="card-link text-decoration-none text-white rounded-3 px-1 py-2">Buy in 1 click</a>
+                                    </div>
+                                  </div>                   
+                                </div>
+                                <div class="btn-group mt-3 d-inline-block" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-primary">1</button>
+                                    <button type="button" class="btn btn-primary">2</button>
+                                    <button type="button" class="btn btn-primary">3</button>
+                                    <button type="button" class="btn btn-primary">4</button>
+                                    <button type="button" class="btn btn-primary">>></button>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section class="py-5">
+             <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-9">
+                        <div class="texts rounded-4 p-5 bg-white">
+                            <h2 class="mb-3">
+                                Smart, state-of-the-art devices
+                            </h2>
+                                  <p class="mb-3">
+                                    We live in such a modern world, where innovative solutions appear literally every day, hour by hour better. The world is constantly evolving and the field of electronics is proof of this. Some new technology is gaining special admiration and demand, and some gadgets are not destined to be popular. This is standard natural selection, because it has become easier to live with a variety of smart devices.
+                                  </p>
+                                  <h4 class="mb-3">
+                                    What are gadgets?
+                                  </h4>
+                                  <p class="mb-3">
+                                    This definition includes a special list of goods in Fergana - phones, tablets, laptops, smart watches, and the like. This is an integral part of the modern world, without which it becomes more difficult for an ordinary person to live. We are so accustomed to the convenient functions of gadgets that we simply have no idea what happens otherwise.
+                                  </p>
+                                  <h4 class="mb-3">
+                                    What should the phone be: big or small?
+                                  </h4>
+                                  <p class="mb-3">
+                                    Given the variety of modern technologies, choosing a mobile device for personal purposes is a very difficult task, because today you can <strong>buy phones</strong> with a large screen and many useful functions in Tashkent and Andijan. They will perform tasks at the level of a laptop, or choose an option that has a modest menu and easily fits in the palm of your hand. Here, as they say in Bukhara, to each his own. A wide variety of manufacturers also makes a complicating contribution, because there are already proven models that have been supplied to the technology market for several years, and there are new products that are just entering this area of devices that have attractive indicators and characteristics.
+                                </p>
+                                <h4 class="mb-3">
+                                    The main criteria for choosing a phone
+                                </h4>
+                                <p class="py-3">
+                                    In order to make the right purchase, in addition to external data and user characteristics, you need to be guided by the following points:
+                                </p>
+                                <ul>
+                                    <li>the phone should have a convenient size, easily placed in the hand;</li>
+                                    <li>It is better to choose a design as simple as possible so that it fits perfectly into any style of clothing.</li>
+                                    <li>Observing these simple rules, your gadget is simply obliged to bring joy and pleasure.</li>
+                                </ul>
+                                <h4 class="py-3">
+                                    Observing these simple rules, your gadget is simply obliged to bring joy and pleasure.
+                                </h4>
+                                <p class="mb-3">
+                                    Another area of mobile technology requires special attention - these are auxiliary gadgets that literally filled all the niches of this industry. Today, they are expressed in a variety of variations: it can be both <a href="#">smart watches and bracelets </a>
+                                    equipped with smart functions and capabilities, as well as headphones and audio equipment that have acquired unusual designs and forms of application. You can replenish this list endlessly and each of its participants has its own irreplaceable advantages used in a separate environment. So, for example, smart watches have a convenient call function without using your hand. In order to answer the call, just press the button of the device and the subscriber will be able to hear you without approaching the ear. Modern <a href="#">cordless telephones</a>
+                                    and even simplified <a href="#">raio station</a> with a laconic design and presentable appearance have interesting functions. Faxes, which are still of high value in offices and organizations, fall into the same category. As well as <a href="#">landline telephones</a> are an indispensable attribute of every serious enterprise.
+                                </p>
+                                <h3 class="mb-3">
+                                    <strong>
+                                        Observing these simple rules, your gadget is simply obliged to bring joy and pleasure.
+                                    </strong>
+                                </h3>
+                                <p class="mb-3">
+                                    Another area of mobile technology requires special attention - these are auxiliary gadgets that literally filled all the niches of this industry. Today, they are expressed in a variety of variations: it can be both <a href="#">smart watches and bracelets </a>
+                                    equipped with smart functions and capabilities, as well as headphones and audio equipment that have acquired unusual designs and forms of application. You can replenish this list endlessly and each of its participants has its own irreplaceable advantages used in a separate environment. So, for example, smart watches have a convenient call  with smart functions and capabilities, as well as headphones and audio equipment that have acquired unusual designs and forms of application. You can replenish this list endlessly and each of its participants has its own irreplaceable advantages used in a separate environment. So, for example, smart watches have a convenient call function without using your hand. In order to answer the call, just press the button of the device and the subscriber will be able to hear you without approaching the ear. Modern <a href="#">cordless telephones</a>
+                                    and even simplified <a href="#">raio station</a> with a laconic design and presentable appearance have interesting functions. Faxes, which are still of high value in offices and organizations, fall into the same category. As well as <a href="#">landline telephones</a> are an indispensable attribute of every serious enterprise.
+                                </p>
+                                <h3 class="mb-3">
+                                    What do we offer?
+                                </h3>
+                                <p class="mb-3">
+                                    The website of our company Asaxiy.uz presents the latest developments of mobile devices from leading manufacturers. We are the largest suppliers of electronics and household appliances, carrying out <a href="#">fast delivery</a> of goods both to the Tashkent region and Samarkand, and to cities such as Syr-Darya, Khorezm and Namangan. A full map of our transport services can be found on the website of our company Asaxiy.uz, where you are also offered <a href="#">e-books</a> with a choice of font sizes and <a href="#">accessories for smartphones and phones</a> from high-quality, time-tested manufacturers.
+                                </p>
+                        </div>         
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section class="bg-primary p-5 bg-opacity-75">
+            <div class="container d-flex justify-content-center align-items-center">
+                    <div style="min-width: 100%;" class="bg-white rounded-4 py-4 px-5 d-flex justify-content-between align-items-center">
+                            <img style="width: 100px;" src="./img/logo-1.webp" alt="midia">
+                            <img style="width: 100px;" src="./img/hp.webp" alt="hp">
+                            <img style="width: 100px;" src="./img/artel.webp" alt="artel">
+                            <img style="width: 100px;" src="./img/monsher.webp" alt="monsher">
+                            <img style="width: 100px;" src="./img/apple.webp" alt="apple">
+                            <img style="width: 100px;" src="./img/acer.webp" alt="acer">
+                            <img style="width: 100px;" src="./img/lenovo.webp" alt="lenovo">
+                            <img style="width: 100px;" src="./img/thomas.webp" alt="thomas">
+                    </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="bg-img bg-primary bg-opacity-75 rounded-4 d-flex justify-content-start align-items-center">
+                         <div class="desc text-center d-flex flex-column justify-content-center align-items-center">
+                            <img src="./img/asaxiy-logo-white.svg" alt="asaxiy-logo-white">
+                            <h4 class="py-4 text-white">
+                                Your online store
+                            </h4>
+                            <div class="d-flex">
+                                <img src="./img/app-store.svg" alt="app-store">
+                                <img class="ms-2" src="./img/google-play.svg" alt="google-play">
+                                <img class="ms-2" src="./img/app-gallery.svg" alt="app-gallery">
+                            </div>
+                         </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-primary p-5 bg-opacity-75">
+            <div class="container d-flex justify-content-center align-items-center">
+                    <div style="min-width: 100%;" class="bg-white rounded-4 py-4 px-5 d-flex justify-content-between align-items-center">
+                        <div class="d-flex">
+                            <img src="./img/market.svg" alt="market">
+                            <div class="ms-4">
+                               <h6 class="mb-1">No more going to the bazaar</h6>
+                               <p style="max-width: 180px;" class="text-secondary">
+                                   We have favorable prices and home delivery
+                               </p>
+                            </div>
+                       <div>
+                       </div>
+                      </div>
+                      <div class="d-flex">
+                        <img src="./img/market.svg" alt="market">
+                        <div class="ms-4">
+                           <h6 class="mb-1">No more going to the bazaar</h6>
+                           <p style="max-width: 180px;" class="text-secondary">
+                               We have favorable prices and home delivery
+                           </p>
+                        </div>
+                   <div>
+                   </div>
+                  </div>
+                  <div class="d-flex">
+                    <img src="./img/market.svg" alt="market">
+                    <div class="ms-4">
+                       <h6 class="mb-1">No more going to the bazaar</h6>
+                       <p style="max-width: 180px;" class="text-secondary">
+                           We have favorable prices and home delivery
+                       </p>
+                    </div>
+               <div>
+               </div>
+              </div>
+              <div class="d-flex">
+                <img src="./img/market.svg" alt="market">
+                <div class="ms-4">
+                   <h6 class="mb-1">No more going to the bazaar</h6>
+                   <p style="max-width: 180px;" class="text-secondary">
+                       We have favorable prices and home delivery
+                   </p>
+                </div>
+           <div>
+           </div>
+          </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+      <footer class="bg-white">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-baseline">
+                <ul class="list-unstyled">
+                    <li class="mb-2"><strong>Information</strong></li>
+                    <li class="text-secondary mb-1 footer__link">Frequently Asked Questions</li>
+                    <li class="text-secondary mb-1 footer__link">Pick-up points</li>
+                    <li class="text-secondary mb-1 footer__link">Blog</li>
+                    <li class="text-secondary mb-1 footer__link">Public Offer (User Agreement)</li>
+                    <li class="text-secondary mb-1 footer__link">Offer for installment purchases</li>
+                    <li class="text-secondary mb-1 footer__link">About us</li>
+                </ul>
+                <div>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><strong>For communication</strong></li>
+                        <li class="d-flex text-secondary">
+                            <img  class="me-2" style="width: 17px;" src="./img/tel-icon.png" alt="tel:numb">
+                            +998 71 200 01 05
+                        </li>
+                        <li class="d-flex text-secondary">
+                            <img  class="me-2" style="width: 17px;" src="./img/payment.svg" alt="tel:numb">
+                            info@asaxiy.uz
+                        </li>
+                        <li class="d-flex text-secondary">
+                            <img  class="me-2" style="width: 17px;" src="./img/location.png" alt="tel:numb">
+                            49 Islam Karimov Street, Tashkent
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><strong>Bookstore</strong></li>
+                        <li class="d-flex text-secondary">
+                            <img  class="me-2" style="width: 17px;" src="./img/location.png" alt="tel:numb">
+                            Asaxiy Novza
+                        </li>
+                        <li class="d-flex text-secondary">
+                            <img  class="me-2" style="width: 17px;" src="./img/location.png" alt="tel:numb">
+                            Asaxiy Farhod bozori
+                        </li>
+                        <li class="d-flex text-secondary">
+                            <img  class="me-2" style="width: 17px;" src="./img/location.png" alt="tel:numb">
+                             Asaxiy Panorama, Kitob olami
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><strong>Our achievments</strong></li>
+                        <li class="text-secondary mb-1 footer__link">Tahsin Award</li>
+                        <li class="text-secondary mb-1 footer__link">Medal "Shuhrat"</li>
+                        <li class="text-secondary mb-1 footer__link">Medal "Kelajak bunyodkori"</li>
+                    </ul>
+                    <ul class="list-unstyled">
+                        <li style="width: 201px;"><strong>We are in the social. Networks</strong></li>
+                        <li class="d-inline-block ms-2"><img style="width: 20px;" src="./img/facebook.jpg" alt="facebook"></li>
+                        <li class="d-inline-block ms-2"><img style="width: 20px;" src="./img/intagram.png" alt="telegram"></li>
+                        <li class="d-inline-block ms-2"><img style="width: 20px;" src="./img/telegram.png" alt="instagram"></li>
+                        <li class="d-inline-block ms-2"><img style="width: 20px;" src="./img/youtube.png" alt="youtube"></li>
+                        <li class="d-inline-block ms-2"><img style="width: 20px;" src="./img/wifi.png" alt="wifi"></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><strong>Types of payment</strong></h3>
+                    <ul style="max-width: 258px;" class="p-0 d-flex uzum flex-wrap justify-content-between align-items-center">
+                        <li style="min-width: 118px;" class="p-4 rounded-3 bg-secondary bg-opacity-10 d-flex justify-content-center align-items-center">
+                            <img src="./img/uzum.svg" alt="uzum">
+                        </li>
+                        <li style="min-width: 118px;" class="p-4 rounded-3 bg-secondary bg-opacity-10 d-flex justify-content-center align-items-center">
+                            <img src="./img/payme.svg" alt="payme">
+                        </li>
+                        <li style="min-width: 118px;" class="p-4 rounded-3 bg-secondary bg-opacity-10 d-flex justify-content-center align-items-center">
+                            <img src="./img/visa.svg" alt="visa">
+                        </li>
+                        <li style="min-width: 118px;" class="p-4 rounded-3 bg-secondary bg-opacity-10 d-flex justify-content-center align-items-center">
+                            <img src="./img/mastercard.svg" alt="mastercard">
+                        </li>
+                        <li style="min-width: 118px;" class="p-4 rounded-3 bg-secondary bg-opacity-10 d-flex justify-content-center align-items-center">
+                            <img src="./img/humo.svg" alt="humo">
+                        </li>
+                        <li style="min-width: 118px;" class="p-4 rounded-3 bg-secondary bg-opacity-10 d-flex justify-content-center align-items-center">
+                            <img src="./img/uzcard.svg" alt="uzcard">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foote py-4 d-flex justify-content-center align-items-center">
+                <p class="text-secondary">
+                    2015-2023 Online store asaxiy.uz: Household appliances, etc. Delivery of goods is carried out in all regions. All rights reserved.
+                </p>
+            </div>
+        </div>
+      </footer>
+
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
